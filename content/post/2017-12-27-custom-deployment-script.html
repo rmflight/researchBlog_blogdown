@@ -1,0 +1,38 @@
+---
+title: Custom Deployment Script
+author: Robert M Flight
+date: '2017-12-27'
+slug: custom-deployment-script
+categories: []
+tags:
+  - R
+  - blogdown
+---
+
+
+
+<div id="tldr" class="section level2">
+<h2>TL;DR</h2>
+<p>Use a short bash script to do deployment from your own computer directly to your <code>*.github.io</code> domain.</p>
+</div>
+<div id="why" class="section level2">
+<h2>Why?</h2>
+<p>So Yihui recommends using Netlify, or even Travis-CI in the Blogdown book. I wasn’t willing to setup a custom domain yet, and some of my posts involve a lot of personally created packages, etc, that I don’t want to debug installation on Travis. So, I wanted a simple script I could call on my laptop that would copy the <code>/public</code> directory to the repo for my <code>github.io</code> site, and then push the changes.</p>
+</div>
+<div id="the-script" class="section level2">
+<h2>The Script</h2>
+<p>Here is the simple script I ended up using:</p>
+<pre class="sh"><code>#!/bin/bash
+org_dir=`pwd`
+cd path/to/github.io/repo/
+#rm -rf *
+cp -Rfu path/to/blogdown/public/* .
+
+git add *
+commit_time=`date`
+git commit -m &quot;update at $commit_time&quot;
+git push origin master
+
+cd $org_dir</code></pre>
+<p>It changes directories, because to push from a <code>git</code> repo I’m pretty sure you need to be in the directory, so it also makes sure to go back there at the end. It then copies the contents of <code>/public</code> to the repo, <code>add</code>s all the files, and then uses the current time-stamp as the commit message, and finally pushes all the updates.</p>
+</div>
