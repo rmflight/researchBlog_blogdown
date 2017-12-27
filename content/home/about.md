@@ -42,3 +42,4 @@ Robert is a senior research associate in bioinformatics at the Moseley Bioinform
 I have 12 years experience analysing -omics level data, and 7 as an R programmer and developer. I authored the
 [`categoryCompare`](https://bioconductor.org/packages/release/bioc/html/categoryCompare.html) Bioconductor package
 for comparing -omics data using annotations. 
+
