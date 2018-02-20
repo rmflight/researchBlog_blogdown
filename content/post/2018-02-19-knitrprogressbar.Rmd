@@ -1,12 +1,11 @@
 ---
-title: knitrProgressBar
+title: knitrProgressBar Package
 author: Robert M Flight
 date: '2018-02-19'
-slug: knitrprogressbar
-categories: []
 tags:
-  - R
   - packages
+  - R
+slug: knitrprogressbar
 ---
 
 ## TL;DR
