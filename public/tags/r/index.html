@@ -72,7 +72,7 @@
   <meta property="og:description" content="Senior Research Associate in Bioinformatics">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-02-19T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2018-06-23T00:00:00&#43;00:00">
   
 
   
@@ -196,6 +196,16 @@
   
   
   <div>
+    <h2><a href="/post/iranges-for-non-integer-overlaps/">Using IRanges for Non-Integer Overlaps</a></h2>
+    <div class="article-style">
+      
+      TL;DR The IRanges package implements interval algebra, and is very fast for finding overlaps of two ranges. If you have non-integer data, multiply values by a large constant factor and round them. The constant depends on how much accuracy you need.
+ IRanges?? IRanges is a bioconductor package for interval algebra of integer ranges. It is used extensively in the GenomicRanges package for finding overlaps between various genomic features. For genomic features, integers make sense, because one cannot have fractional base locations.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="/post/knitrprogressbar/">knitrProgressBar Package</a></h2>
     <div class="article-style">
       
@@ -283,16 +293,6 @@ Setup Initialization To start, we will initialize the package.
       
       tl;dr Imposing a different structure than R packages for distributing R code is a bad idea, especially now that R package tools have gotten to the point where managing a package has become much easier.
  ProjectTemplate ?? My last two posts (1, 2) provided an argument and an example of why one should use R packages to contain analyses. They were partly motivated by trends I had seen in other areas, including the appearance of the package ProjectTemplate.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/post/r-job-notifications-using-twitter/">R Job Notifications Using Twitter</a></h2>
-    <div class="article-style">
-      
-      There has been some interesting activity about getting R to send a notification somehow when a long running job is completed. The most notable entries I have seen in this category are RPushBullet for web notifications and pingr for audio notifications.
-Although RPushBullet looks really cool (and Dirk does great work), I wondered if there was a way to do this using a free service that I already had access to, namely twitter.
       
     </div>
   </div>
