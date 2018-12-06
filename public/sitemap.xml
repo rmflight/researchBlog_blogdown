@@ -5,6 +5,33 @@
     
     <url>
     
+      <loc>/post/nicer-png-graphics/</loc>
+      <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/don-t-do-pca-after-statistical-testing/</loc>
+      <lastmod>2018-09-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/finding-modes-using-kernel-density-estimates/</loc>
+      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/split-unsplit-anti-pattern/</loc>
       <lastmod>2018-07-17T00:00:00+00:00</lastmod>
     </url>
@@ -485,7 +512,7 @@
     <url>
     
       <loc>/tags/bioinformatics/</loc>
-      <lastmod>2014-06-05T00:00:00+00:00</lastmod>
+      <lastmod>2018-09-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -593,6 +620,16 @@
     
     <url>
     
+      <loc>/tags/graphics/</loc>
+      <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/hugo/</loc>
       <lastmod>2017-12-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -615,6 +652,16 @@
     
       <loc>/tags/journal-club/</loc>
       <lastmod>2012-08-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/kernel-density/</loc>
+      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -723,6 +770,26 @@
     
     <url>
     
+      <loc>/tags/pca/</loc>
+      <lastmod>2018-09-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pdf/</loc>
+      <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/phdisabled/</loc>
       <lastmod>2014-12-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -753,6 +820,16 @@
     
     <url>
     
+      <loc>/tags/probability-density/</loc>
+      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -773,7 +850,7 @@
     <url>
     
       <loc>/tags/python/</loc>
-      <lastmod>2013-10-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -783,7 +860,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2018-07-17T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -893,7 +970,7 @@
     <url>
     
       <loc>/tags/visualization/</loc>
-      <lastmod>2015-06-17T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
