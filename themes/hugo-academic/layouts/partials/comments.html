@@ -1,5 +1,8 @@
-{{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
-<section id="comments">
-  {{ template "_internal/disqus.html" . }}
-</section>
-{{ end }}
+<script src="https://utteranc.es/client.js"
+repo="rmflight/researchBlog_blogdown"
+issue-term="title"
+label="comment"
+theme="github-dark"
+crossorigin="anonymous"
+async>
+</script>
