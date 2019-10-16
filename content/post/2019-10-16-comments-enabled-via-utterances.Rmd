@@ -21,7 +21,7 @@ who comment on this blog already have one.
 ## Why Utterances
 
 When I switched to [blogdown](https://bookdown.org/yihui/blogdown/), I lost
-my [disqus]() comments. I had considered migrating them over, but never got around
+my disqus comments. I had considered migrating them over, but never got around
 to it. I also thought that there had to be a way to link GitHub issues to
 blog posts, but didn't investigate it much.
 
