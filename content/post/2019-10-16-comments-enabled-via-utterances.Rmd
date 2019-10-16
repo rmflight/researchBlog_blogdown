@@ -25,7 +25,7 @@ my disqus comments. I had considered migrating them over, but never got around
 to it. I also thought that there had to be a way to link GitHub issues to
 blog posts, but didn't investigate it much.
 
-Then, I came across Maëlle's blog post about switching to [utterances](https://uteranc.es)
+Then, I came across [Maëlle's blog post](https://masalmon.eu/2019/10/02/disqus/) about switching to [utterances](https://uteranc.es)
 and I was sold. I had some free time last night, and dived into how to add it
 to my site that uses the hugo academic theme.
 
