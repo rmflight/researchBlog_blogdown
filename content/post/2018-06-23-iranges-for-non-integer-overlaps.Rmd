@@ -38,7 +38,7 @@ Lets actually test differences in speed by counting how many overlapping points 
 ```{r load_data, message=FALSE}
 library(IRanges)
 library(ggplot2)
-load("../../data/iranges_example_data.rda")
+load("../../extdata/iranges_example_data.rda")
 
 head(mz_points)
 
