@@ -1,5 +1,5 @@
 ---
-title: Narrower Kable Tables
+title: Narrower PDF Kable Tables
 author: Robert M Flight
 date: '2019-11-06'
 slug: narrower-kable-tables
@@ -17,7 +17,7 @@ header:
 
 ## TL;DR
 
-Don't bother trying to roll your own function to make narrower `kable` tables, just use [`kableExtra`](https://cran.r-project.org/web/packages/kableExtra/index.html).
+Don't bother trying to roll your own function to make narrower `kable` tables in a PDF document, just use [`kableExtra`](https://cran.r-project.org/web/packages/kableExtra/index.html).
 
 ## Motivation
 
@@ -78,3 +78,5 @@ knitr::kable(data.frame) %>%
 ```
 
 Now the table will fit on the page, and stay where it was declared!
+
+I hope I can save someone else two days of trial and error and crazy Googling!
