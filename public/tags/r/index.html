@@ -72,7 +72,7 @@
   <meta property="og:description" content="Senior Research Associate in Bioinformatics">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-11-06T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2020-02-25T00:00:00&#43;00:00">
   
 
   
@@ -196,6 +196,16 @@
   
   
   <div>
+    <h2><a href="/post/using-group-by-instead-of-splitting/">Using group_by Instead of Splits</a></h2>
+    <div class="article-style">
+      
+      TL;DR It is relatively easy to use dplyr::group_by and summarise to find items that you might want to keep or remove based on a part_of the item or group in question. I used to use split and iterate, but group_by is much easier.
+ Motivation I have some relatively large sets of data that fall naturally into groups of items. Often, I find that I want to remove a group that contains either any of or all of particular items.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="/post/narrower-kable-tables/">Narrower PDF Kable Tables</a></h2>
     <div class="article-style">
       
@@ -284,16 +294,6 @@ Lets setup an example where we will have 1e5 values in 10 groups, each group of 
       
       TL;DR If you like dplyr progress bars, and wished you could use them everywhere, including from within Rmd documents, non-interactive shells, etc, then you should check out knitrProgressBar (cran github).
  Why Yet Another Progress Bar?? I didn’t set out to create another progress bar package. But I really liked dplyrs style of progress bar, and how they worked under the hood (thanks to the examples from Bob Rudis).
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/post/licensing-r-packages-that-include-others-code/">Licensing R Packages that Include Others Code</a></h2>
-    <div class="article-style">
-      
-      TL;DR If you include others code in your own R package, list them as contributors with comments about what they contributed, and add a license statement in the file that includes their code.
- Motivation I recently created the knitrProgressBar package. It is a really simple package, that takes the dplyr progress bars and makes it possible for them to write progress to a supplied file connection. The dplyr package itself is licensed under MIT, so I felt fine taking the code directly from dplyr itself.
       
     </div>
   </div>
